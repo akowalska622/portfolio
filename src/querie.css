@@ -49,10 +49,6 @@
 
 /* small phones */
 @media only screen and (max-width: 480px) {
-  i {
-    color: red;
-  }
-
   .circle-container {
     z-index: 10;
   }
