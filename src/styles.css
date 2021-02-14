@@ -588,6 +588,7 @@ body {
 
 header {
   height: 100vh;
+  width: 100vw;
 }
 
 #title {
@@ -675,6 +676,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 100%;
 }
 
 .card {
@@ -811,6 +813,7 @@ form {
   border: 0;
   color: white;
   transition: all 0.2s;
+  margin-bottom: 1.5rem;
 }
 
 .btn:hover {

@@ -8,7 +8,7 @@
 /* tablets */
 @media only screen and (max-width: 1023px) {
   .about {
-    padding: 10rem 10rem;
+    padding: 10rem;
     align-items: center;
   }
 
@@ -16,10 +16,27 @@
     width: 15rem;
     height: 15rem;
   }
+
+  .using {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
 }
 
 /* bigger phones */
 @media only screen and (max-width: 767px) {
+  #title {
+    top: 30%;
+  }
+
+  header {
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
   .card {
     display: flex;
     flex-direction: column;
@@ -36,6 +53,7 @@
   .using {
     width: 100%;
     justify-content: center;
+    flex-direction: column;
     margin-bottom: 3rem;
   }
 
@@ -44,6 +62,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .card-left {
+    align-self: center;
+    padding: 3rem;
   }
 }
 
