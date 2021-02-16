@@ -98,12 +98,6 @@ header {
   margin-left: 3.5rem;
 }
 
-.contact-form {
-  display: flex;
-  align-self: center;
-  flex-direction: column;
-}
-
 #avatar {
   border-radius: 50%;
   margin-right: 2.5rem;
@@ -154,7 +148,8 @@ header {
   transition: all 0.3s;
 }
 
-.stack-gallery i:hover {
+.stack-gallery i:hover,
+.contact i:hover {
   transform: scale(1.3);
   color: #e67e22;
 }
@@ -235,32 +230,179 @@ figure:hover figcaption {
 }
 
 .components {
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.footer {
+.components p {
+  margin-bottom: 0.8rem;
+}
+
+.hover-link {
+  color: #e67e22;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.2rem;
+  transition: all 0.2s;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.hover-link:hover,
+.contact p:hover {
+  transform-origin: top left;
+  transform: rotate(-4deg);
+  background-color: #1b2735;
+}
+
+.donut {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  transition: all 1s;
+  align-self: center;
+  margin-left: 10rem;
+}
+
+.donut:hover {
+  transform: rotate(360deg);
+}
+
+.donut-body {
+  position: absolute;
   width: 100%;
-  background-color: #2d3436;
-  color: #fff;
-  padding: 5rem 10rem;
-  margin-top: -10rem;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #f77778;
+  border: 2px solid #003459;
 }
 
-.footer-wrapper {
-  width: 75%;
-  margin: 0 auto;
+.donut-body:before {
+  content: "";
+  position: absolute;
+  width: 93%;
+  height: 93%;
+  background-color: #faa7a8;
+  top: 3px;
+  right: 3px;
+  border-radius: 50%;
 }
 
+.donut-body:after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #003459;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.face {
+  width: 32px;
+  height: 16px;
+  position: absolute;
+  border: 3px solid #003459;
+  border-top: 0;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  top: 44px;
+  left: 84px;
+}
+
+.face:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #003459;
+  position: absolute;
+  top: -20px;
+  left: -16px;
+  box-shadow: 48px 0 0 #003459;
+}
+
+.highlight {
+  width: 40px;
+  height: 40px;
+  border: 8px solid white;
+  border-top: 0;
+  border-right: 0;
+  position: absolute;
+  left: 50px;
+  top: 105px;
+  border-bottom-left-radius: 50px;
+  opacity: 0.5;
+}
+
+.contact-form {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact i {
+  font-size: 4rem;
+  transition: all 0.2s;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 2.2rem;
+  transition: all 0.2s;
+}
+
+.contact p:hover {
+  color: #e67e22;
+}
+
+.contact a {
+  color: inherit;
+}
+
+small {
+  align-self: center;
+}
+
+.info-to-copy {
+  margin-bottom: 3rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* 
 form {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.contact-form h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
 
 .btn {
   cursor: pointer;
@@ -352,4 +494,29 @@ textarea:focus + label span,
 textarea:valid + label span {
   color: #e67e22;
   transform: translateY(-5rem);
+} */
+
+.footer {
+  width: 100%;
+  background-color: #2d3436;
+  color: #fff;
+  padding: 5rem 10rem;
+  margin-top: -10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  width: 70%;
+}
+
+.hover-footer {
+  display: inline-block;
+  transition: all 0.2s;
+}
+.hover-footer:hover {
+  transform-origin: top left;
+  transform: rotate(-8deg) scale(1.2);
+  background-color: #1b2735;
+  color: #e67e22;
 }
