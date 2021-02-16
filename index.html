@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/stars.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
@@ -25,15 +26,6 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
     <header>
-      <div class="navbar-container">
-        <div class="circle-container">
-          <div class="circle">
-            <button id="open">
-              <i class="fas fa-bars"> </i>
-            </button>
-          </div>
-        </div>
-      </div>
       <div id="title">
         <span>
           ania kowalska.
@@ -58,8 +50,7 @@
           consider myself as a world's citizen. I'm deeply passionate about web
           development and I'm eager to share this passion with you! <br>When I don't
           code, I read books, travel, play with my dog or learn languages. </br>I can
-          communicate with you in Polish 🇵🇱, English 🇬🇧, Spanish 🇪🇸 or Italian
-          🇮🇹.
+          communicate with you in Polish, English, Spanish, or Italian.
         </p>
       </div>
       <div
@@ -101,52 +92,77 @@
       </div>
     </div>
 
-    <div
-        class="card card-projects"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-      >
-        <h2>My projects:</h2>
-        <div class="projects-wrap">
-          <figure>
-            <img src="src/img/char-count.png" alt="char-count">
-          </figure>
-          <figure>
-            <img src="src/img/friends.png" alt="friends">
-          </figure>
-          <figure>
-            <img src="src/img/heads-or-tails.png" alt="heads-or-tails">
-          </figure>
-          <figure>
-            <img src="src/img/tip-calculator.png" alt="tip-calculator">
-          </figure>
-        </div>
-      </div>
+
+    <div data-aos="flip-left" class="card project project-one" data-aos-duration="1000">
+      <figure>
+          <div class="blur"></div>
+          <img src="src/img/friends.png" alt="friends">
+          <figcaption>
+              <h2>Friends' random episode</h2>
+              <div class="project-icons">
+                <a href="https://5xb1t.csb.app/" target="_blank"><i class="fas fa-desktop"></i></a>
+                <a href="https://github.com/akowalska622/friends-episode-generator" target="_blank"><i class="fas fa-code"></i></a>
+              </div>
+            </figcaption>
+      </figure>
+    </div>
+
+    <div data-aos="flip-right" class="card card-left project project-two" data-aos-duration="1000">
+      <figure>
+        <div class="blur"></div>
+        <img src="src/img/char-count.png" alt="char-count">
+          <figcaption>
+              <h2>Characters count</h2>
+              <div class="project-icons">
+                <a href="https://bpsct.csb.app/" target="_blank"><i class="fas fa-desktop"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-code"></i></a>
+              </div>
+            </figcaption>
+       </figure>
+    </div>
+
+    <div data-aos="flip-right" class="card project project-three" data-aos-duration="1000">
+      <figure>
+        <div class="blur"></div>
+        <img src="src/img/tip-calculator.png" alt="tip-calculator">
+        <figcaption>
+          <h2>Tip calculator</h2>
+          <div class="project-icons">
+            <a href="https://hxrsq.csb.app/" target="_blank"><i class="fas fa-desktop"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-code"></i></a>
+          </div>
+        </figcaption>
+       </figure>
+    </div>
 
       <div
         class="card card-left components"
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-      <h2>My small components:</h2>
+      <h2>Do you crave for more?</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis fugit odit repudiandae saepe esse, alias, deleniti quasi sint eligendi voluptates quam nulla aspernatur suscipit sed ratione illum commodi asperiores. Lorem</p>
     </div>
 
+
     <div data-aos="fade-up" class="card contact-form">
       <h2>Hit me up</h2>
-      <form>
+      <form action=”mailto:a.kowalska622@gmail.com”
+      method=”POST”
+      enctype=”multipart/form-data”
+      name=”EmailForm”>
  
           <div class="form-control">
-            <input type="text" required />
+            <input type="text" name=”ContactName” required />
             <label>Email</label>
           </div>
   
           <div class="form-control">
-            <textarea rows="7" cols="50" required></textarea>
+            <textarea name=”ContactCommentt” rows="7" cols="50" required></textarea>
             <label>Message</label>
           </div>
   
-          <button class="btn">Send a message</button>
+          <input class="btn" type="submit" value="Send a message"></input>
           </form>
     </div>
     </section>
