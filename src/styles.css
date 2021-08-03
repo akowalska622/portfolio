@@ -10,6 +10,7 @@ html {
   background-size: cover;
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
 header {
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 #title {
@@ -69,6 +71,28 @@ header {
   100% {
     opacity: 1;
   }
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  color: rgba(245, 245, 245, 0.527);
+  background-color: #5e5d5d6c;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.arrow-down:hover {
+  color: rgb(245, 245, 245);
 }
 
 /* ABOUT */
@@ -117,7 +141,7 @@ header {
 
 .card-stack {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   padding-left: 10rem;
   padding-right: 10rem;

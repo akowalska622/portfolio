@@ -4,7 +4,6 @@
     width: 100%;
   }
 }
-
 /* tablets */
 @media only screen and (max-width: 1023px) {
   .about {
@@ -17,17 +16,21 @@
     height: 15rem;
   }
 
-  .using {
+  /* .using {
     width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 3rem;
-  }
+  } */
 }
 
 /* bigger phones */
 @media only screen and (max-width: 767px) {
+  .contact-details {
+    flex-direction: column;
+  }
+
   #title {
     top: 30%;
   }
