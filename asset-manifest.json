@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.52c9e68f.chunk.css",
-    "main.js": "/portfolio/static/js/main.974ef96a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.974ef96a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.79609945.chunk.css",
+    "main.js": "/portfolio/static/js/main.1f561f07.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1f561f07.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
     "static/js/2.1fac547e.chunk.js": "/portfolio/static/js/2.1fac547e.chunk.js",
     "static/js/2.1fac547e.chunk.js.map": "/portfolio/static/js/2.1fac547e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.52c9e68f.chunk.css.map": "/portfolio/static/css/main.52c9e68f.chunk.css.map",
+    "static/css/main.79609945.chunk.css.map": "/portfolio/static/css/main.79609945.chunk.css.map",
     "static/js/2.1fac547e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1fac547e.chunk.js.LICENSE.txt",
     "static/media/avatar.397f5478.jpg": "/portfolio/static/media/avatar.397f5478.jpg",
     "static/media/board-games-next.c3d295d5.png": "/portfolio/static/media/board-games-next.c3d295d5.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.bcd5af5a.js",
     "static/js/2.1fac547e.chunk.js",
-    "static/css/main.52c9e68f.chunk.css",
-    "static/js/main.974ef96a.chunk.js"
+    "static/css/main.79609945.chunk.css",
+    "static/js/main.1f561f07.chunk.js"
   ]
 }
