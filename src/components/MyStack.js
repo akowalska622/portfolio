@@ -9,10 +9,12 @@ import {
   SiGithub,
   SiSvelte,
   SiNextDotJs,
-  SiGraphql
+  SiGraphql,
+  SiFirebase,
+  SiStorybook
 } from "react-icons/si";
 
-import { FaSass } from "react-icons/fa";
+import { FaSass, FaNodeJs } from "react-icons/fa";
 
 export const MyStack = () => {
   return (
@@ -30,13 +32,18 @@ export const MyStack = () => {
             <SiGit className={`${classes.icon} ${classes.git}`} />
             <SiGithub className={`${classes.icon} ${classes.github}`} />
           </div>
+          <div className={classes.row}>
+            <FaSass className={`${classes.icon} ${classes.sass}`} />
+            <SiFirebase className={`${classes.icon} ${classes.firebase}`} />
+            <SiStorybook className={`${classes.icon} ${classes.storybook}`} />
+          </div>
         </div>
       </div>
       <div className={classes.learning}>
         <h2>Learning:</h2>
         <div className={classes.gallery}>
           <div className={classes.row}>
-            <FaSass className={`${classes.icon} ${classes.sass}`} />
+            <FaNodeJs className={`${classes.icon} ${classes.node}`} />
             <SiSvelte className={`${classes.icon} ${classes.svelte}`} />
           </div>
           <div className={classes.row}>
