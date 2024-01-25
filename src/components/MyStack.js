@@ -8,7 +8,7 @@ import {
   SiGit,
   SiGithub,
   SiSvelte,
-  SiNextDotJs,
+  SiNextdotjs,
   SiGraphql,
   SiFirebase,
   SiStorybook
@@ -47,7 +47,7 @@ export const MyStack = () => {
             <SiSvelte className={`${classes.icon} ${classes.svelte}`} />
           </div>
           <div className={classes.row}>
-            <SiNextDotJs className={`${classes.icon} ${classes.next}`} />
+            <SiNextdotjs className={`${classes.icon} ${classes.next}`} />
             <SiGraphql className={`${classes.icon} ${classes.graph}`} />
           </div>
         </div>
