@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f56e5602.css",
-    "main.js": "/portfolio/static/js/main.eb7f1622.js",
+    "main.css": "/portfolio/static/css/main.b17db2e7.css",
+    "main.js": "/portfolio/static/js/main.2fa3429f.js",
     "static/media/plantify.png": "/portfolio/static/media/plantify.d59c1e6edca8826fc3cf.png",
     "static/media/board-games-next.png": "/portfolio/static/media/board-games-next.c3d295d59779586f23f1.png",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.397f547833ab51720198.jpg",
     "static/media/budget-app.png": "/portfolio/static/media/budget-app.e659e355537097c830ef.png",
     "index.html": "/portfolio/index.html",
-    "main.f56e5602.css.map": "/portfolio/static/css/main.f56e5602.css.map",
-    "main.eb7f1622.js.map": "/portfolio/static/js/main.eb7f1622.js.map"
+    "main.b17db2e7.css.map": "/portfolio/static/css/main.b17db2e7.css.map",
+    "main.2fa3429f.js.map": "/portfolio/static/js/main.2fa3429f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f56e5602.css",
-    "static/js/main.eb7f1622.js"
+    "static/css/main.b17db2e7.css",
+    "static/js/main.2fa3429f.js"
   ]
 }
