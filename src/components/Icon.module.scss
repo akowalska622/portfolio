@@ -1,0 +1,12 @@
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+
+  & .label {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+}
