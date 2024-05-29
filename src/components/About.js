@@ -11,9 +11,9 @@ export const About = () => {
         alt='Author of the portfolio'
       />
       <p className={classes.description}>
-        Hi there! I'm a self-taught web-developer from Poland, but currently
-        based in Spain. I'm deeply passionate about web and mobile development
-        and I'm eager to share this passion with you! <br />
+        Hi there! I'm a self-taught Web and Mobile Developer from Poland, but
+        currently based in Spain. I'm deeply passionate about web and mobile
+        development and I'm eager to share this passion with you! <br />
         When I don't code, I climb, travel, play with my dog or practice BJJ.
         <br />I can communicate with you in native Polish, fluent English,
         intermediate Spanish, or basic Italian.
