@@ -3,7 +3,7 @@ import { Card } from './ui/Card';
 
 export const MoreInfo = () => {
   return (
-    <Card customClass={classes.more} position='left'>
+    <Card customClass={classes.more} position='right'>
       <div className={classes.moreProjects}>
         <h2>Are you craving more?</h2>
         <div className={classes.text}>
@@ -59,7 +59,6 @@ export const MoreInfo = () => {
             you can find bunch of <br />
             my small projects, components.
           </p>
-          <small>Credits for doughnut: Ahmed Sadek</small>
         </div>
       </div>
       <div className={classes.donut}>

@@ -1,7 +1,7 @@
-import classes from "./ProjectItem.module.scss";
-import { Card } from "./ui/Card";
-import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { BiCodeAlt } from "react-icons/bi";
+import classes from './ProjectItem.module.scss';
+import { Card } from './ui/Card';
+import { HiOutlineDesktopComputer } from 'react-icons/hi';
+import { BiCodeAlt } from 'react-icons/bi';
 
 export const ProjectItem = (props) => {
   return (
@@ -10,12 +10,12 @@ export const ProjectItem = (props) => {
       <>
         <div className={classes.titleAndIcons}>
           <div className={classes.iconsWrapper}>
-            <h2>{props.title}</h2>
+            <h2 className={classes.title}>{props.title}</h2>
             <div className={classes.icons}>
-              <a href={props.demoUrl} target="_blank">
+              <a href={props.demoUrl} target='_blank'>
                 <HiOutlineDesktopComputer className={classes.icon} />
               </a>
-              <a href={props.codeUrl} target="_blank">
+              <a href={props.codeUrl} target='_blank'>
                 <BiCodeAlt className={classes.icon} />
               </a>
             </div>
