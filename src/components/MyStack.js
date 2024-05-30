@@ -66,7 +66,7 @@ export const MyStack = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className={classes.stackSection}>
         <h2>Also worked with</h2>
         <div className={classes.gallery}>
           <div className={classes.row}>
